@@ -1,0 +1,57 @@
+@media screen and (min-width: 500px) and (max-width:2000px){
+    
+    :root{
+        --color1:red;
+        --color2:white;
+        --color3:gray;
+    }
+    
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+        color: white;
+    }
+    
+    div#logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    div#itens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -35px;
+    }
+    div#perfil2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: -30px;
+    }
+    div#logo > img{
+        width: 90px;
+        padding: 0px 10px;
+    }
+    div#itens> p{
+        padding: 0px 8px;
+        font-weight: 10px;
+    }
+    div#perfil2> img#campainha{
+        width: 15px;
+        margin: 0px 7px;
+        
+    }
+    div#perfil2 > img#lupa{
+        width: 12px;
+        padding: 0px 10px 0px 60px;
+        
+    }
+    div#perfil2 > img#perfil{
+        padding: 5px 5px;
+        width: 35px;
+        border-radius: 100%;
+    }
+}
