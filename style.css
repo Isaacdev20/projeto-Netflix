@@ -12,6 +12,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         background-color: black;
         color: white;
+        overflow: hidden;
     }
     
     div#logo{
@@ -19,11 +20,17 @@
         justify-content: flex-start;
         align-items: center;
     }
-    div#itens{
+    nav#itens{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: -35px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        text-overflow: none;
+        padding: 0px 10px ;
     }
     div#perfil2{
         display: flex;
@@ -53,5 +60,51 @@
         padding: 5px 5px;
         width: 35px;
         border-radius: 100%;
+    }
+
+    /*primeiro layout */
+    p.titulos{
+        margin: 20px 15px 10px 15px;
+        font-size: 25px;
+    }
+    div#primeirolay{
+        display: flex;
+        
+    }
+    div > img{
+        display: flex;
+        justify-content: space-evenly;
+        background-size: cover;
+        width: 230px;
+        margin: 10px 20px;
+    }
+    
+    /* segunda lay*/
+    
+    div#segundolay{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    div#segundolay > img{
+        display: flex;
+        background-size: cover;
+        width: 120px;
+        height: 200px;
+        margin-left: 0;
+    }
+    div#segundolay > p{
+        margin: -50px -12px 10px 15px;
+        padding: 0;
+        font-size: 280px;    
+    }
+    /* terceiro lay */
+    div#terceirolay{
+        display: flex;
+    }
+    div#terceirolay > img{
+        display: flex;
+        background-size: cover;
+        width: 230px;
+        margin: 10px 20px;
     }
 }
